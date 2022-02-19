@@ -49,5 +49,6 @@ public class Cliente {
 	@NotNull(message="{campo.clienteNascimento.nulo}")
 	@Column(nullable = false)
 	private Date clienteNascimento;
-	
+
+
 }

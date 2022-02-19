@@ -2,6 +2,7 @@ package controllers;
 
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,11 +17,8 @@ import repository.IClienteRepository;
 @RequestMapping("/api")
 public class ClienteController {
 
+	@Autowired
 	private IClienteRepository clienteRepository;
-	
-	public ClienteController(IClienteRepository clienteRepository) {
-		this.clienteRepository = clienteRepository;
-	}
 
 	@PostMapping
 	@ResponseStatus(value = HttpStatus.CREATED)
