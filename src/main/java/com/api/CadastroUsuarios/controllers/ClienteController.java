@@ -1,4 +1,4 @@
-package controllers;
+package com.api.CadastroUsuarios.controllers;
 
 import javax.validation.Valid;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import model.Cliente;
-import repository.IClienteRepository;
+import com.api.CadastroUsuarios.model.Cliente;
+import com.api.CadastroUsuarios.repository.IClienteRepository;
 
 @RestController
 @RequestMapping("/api")

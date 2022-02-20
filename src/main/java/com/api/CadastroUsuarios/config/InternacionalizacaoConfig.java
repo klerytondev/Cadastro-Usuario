@@ -1,4 +1,4 @@
-package config;
+package com.api.CadastroUsuarios.config;
 
 import java.util.Locale;
 

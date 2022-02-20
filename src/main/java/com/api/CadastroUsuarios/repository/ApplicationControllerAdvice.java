@@ -1,4 +1,4 @@
-package repository;
+package com.api.CadastroUsuarios.repository;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import model.ApiErrors;
+import com.api.CadastroUsuarios.model.ApiErrors;
 
 @RestControllerAdvice
 public class ApplicationControllerAdvice {

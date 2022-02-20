@@ -1,4 +1,4 @@
-package model;
+package com.api.CadastroUsuarios.model;
 
 import java.util.Arrays;
 import java.util.List;
